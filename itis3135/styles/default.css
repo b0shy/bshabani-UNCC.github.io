@@ -1,0 +1,56 @@
+body
+{
+	font-family: Garamond;
+	color: #ffbcf0 ;
+	background-color: #988aff;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: ;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: FFefbd;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #b5d6b2;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	text-align: center;
+}
