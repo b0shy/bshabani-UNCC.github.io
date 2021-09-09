@@ -1,8 +1,8 @@
 body
 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: #af7ffd ;
-	background-color: #6dbe96;
+	color: #d090e9 ;
+	background-color: #bf69da;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -11,13 +11,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: #af7ffd ;
+	color: #d090e9 ;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: #af7ffd ;
+	color: #d090e9;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
@@ -75,7 +75,7 @@ th, td
 	text-align: right;
 }
 .brown{
-	background-color: #6dbe96;
+	background-color: #bf69da;;
 	font-weight: bolder;
 	vertical-align: top;
 
