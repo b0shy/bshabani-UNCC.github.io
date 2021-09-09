@@ -2,7 +2,7 @@ body
 {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: #d090e9 ;
-	background-color: #bf69da;
+	background-color: #c069da1f;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -75,7 +75,7 @@ th, td
 	text-align: right;
 }
 .brown{
-	background-color: #bf69da;;
+	background-color: #c069da1f;
 	font-weight: bolder;
 	vertical-align: top;
 
