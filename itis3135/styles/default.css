@@ -1,56 +1,37 @@
-body
-{
-	font-family: Garamond;
-	color: #ffbcf0 ;
-	background-color: #988aff;
-	margin-left: 75px;
-	margin-right: 75px;
+body {
+    width: 750px;
+    margin: 0 auto;
 }
 
-
-header, footer
-{
-	text-align: center;
-	color: ;
-	font-weight: bold;
+table {
+    border-collapse: collapse;
+    margin: 20px;
 }
 
-h1, h2, h3
-{
-	color: FFefbd;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	text-align: center;
+thead {
+    background-color: rgb(0, 128, 0);
 }
 
-h3
-{
-	font-size: 200%;
-	line-height: 0px;
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
 }
 
-a
-{
-	text-decoration: none;
-	color: #b5d6b2;
+.right {
+    text-align: right;
 }
 
-a:hover
-{
-	text-decoration: overline underline;
+tr:nth-child(1){
+    background-color: rgba(137, 43, 226, 0.582);
 }
 
-figure
-{
-	text-align: center;
+tbody tr:nth-child(even) td {
+    background-color: rgb(225, 238, 255);
 }
 
-figcaption
-{
-	font-style: italic;
-}
-
-
-nav
-{
-	text-align: center;
+tbody tr:nth-child(odd) td {
+    background-color: rgba(137, 43, 226, 0.582);
 }
