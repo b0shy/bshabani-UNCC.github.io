@@ -1,88 +1,86 @@
-body
-{
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: #d090e9 ;
-	background-color: #c069da1f;
-	margin-left: 75px;
-	margin-right: 75px;
+body {
+	font-size: 16px;
+	background-color: #eeeeee;
+	color: #680000;
 }
 
+/*styling for the page title*/
 
-header, footer
-{
+h1 {
+	font-style: italic;
+	font-size: 28px;
 	text-align: center;
-	color: #d090e9 ;
+	background-color: #996600;
+	color: #f8f8f8;
+}
+
+/*styling for the overall table*/
+
+table {
+	background-color: #F8F8F8;
+	border: solid 2px #787878;
+}
+
+/*styling for the title of the table*/
+
+th {
+	font-weight: bold;
+	text-align: left;
+}
+
+/*styling for the coffee types*/
+
+.label {
 	font-weight: bold;
 }
 
-h1, h2, h3
-{
-	color: #d090e9;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	text-align: center;
+/*styling for the tables*/
+
+.altrow {
+	background-color: #E0E0E0;
 }
 
-h3
-{
-	font-size: 200%;
-	line-height: 0px;
-}
+/*styling for the name input text box*/
 
-a
-{
-	text-decoration: none;
-	color:rgb(255, 143, 189);
-}
-
-a:hover
-{
-	text-decoration: overline underline;
-}
-
-
-figure
-{
-	text-align: center;
-  
-}
-
-figcaption
-{
+#name{
+	background-color: antiquewhite;
 	font-style: italic;
 }
 
+/*styling for the phone number input text box*/
 
-nav
-{
+#pnumber{
+	background-color: antiquewhite;
+	font-style: italic;
+}
+
+/*styling for the email input text box*/
+
+#eaddress{
+	background-color: antiquewhite;
+	font-style: italic;
+}
+
+/*styling for the button*/
+
+#submit{
+	background-color: #996600;
+	color: antiquewhite;
+}
+
+
+
+/*styling for the Google Map link*/
+
+#locationlink {
+	color: #380000;
+	font-style: italic;
+}
+
+/*styling for the bottom copyright information*/
+
+footer {
+	font-style: italic;
+	font-size: 12px;
 	text-align: center;
 }
-
-thead , tfoot
-{
-	background-color: yellow;
-}
-
-th, td
-{
-	border: 1px solid black;
-	padding: .2em 1em .2em .5em;
-	text-align: left;
-	vertical-align: middle;
-}
-
-.right
-{
-	text-align: right;
-}
-.brown{
-	background-color: #c069da1f;
-	font-weight: bolder;
-	vertical-align: top;
-
-}
-
-tbody tr:nth-child(odd) 
-{
-	background-color: rgb(234, 240, 214);
-}
-
