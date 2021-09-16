@@ -1,80 +1,26 @@
 body {
 	font-size: 16px;
-	background-color: #eeeeee;
-	color: #680000;
+	background-color: #fa80728c;
+	color: #295f8b;
 }
 
-/*styling for the page title*/
-
+/*styling for the header title*/
 h1 {
 	font-style: italic;
 	font-size: 28px;
 	text-align: center;
-	background-color: #996600;
-	color: #f8f8f8;
+	background-color: #295f8b;
+	color: #f59b91;
 }
 
-/*styling for the overall table*/
-
-table {
-	background-color: #F8F8F8;
-	border: solid 2px #787878;
+/*styling for hyperlinks*/
+a {
+	color: #97ffdc;
 }
-
-/*styling for the title of the table*/
-
-th {
-	font-weight: bold;
-	text-align: left;
-}
-
-/*styling for the coffee types*/
-
-.label {
-	font-weight: bold;
-}
-
-/*styling for the tables*/
-
-.altrow {
-	background-color: #E0E0E0;
-}
-
-/*styling for the name input text box*/
-
-#name{
-	background-color: antiquewhite;
-	font-style: italic;
-}
-
-/*styling for the phone number input text box*/
-
-#pnumber{
-	background-color: antiquewhite;
-	font-style: italic;
-}
-
-/*styling for the email input text box*/
-
-#eaddress{
-	background-color: antiquewhite;
-	font-style: italic;
-}
-
-/*styling for the button*/
-
-#submit{
-	background-color: #996600;
-	color: antiquewhite;
-}
-
-
-
-/*styling for the Google Map link*/
-
-#locationlink {
-	color: #380000;
-	font-style: italic;
+/*styling for the page title*/
+h2 {
+	font-size: 28px;
+	text-align: center;
 }
 
 /*styling for the bottom copyright information*/
