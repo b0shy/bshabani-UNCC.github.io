@@ -21,10 +21,6 @@ h1 {
 	background-color: #295f8b;
 	color: #f59b91;
 }
-/*styling for h1,h2,h3*/
-h1, h2, h3{
-	text-align: center;
-}
 
 /*styling for hyperlinks*/
 a {
@@ -80,4 +76,28 @@ th, td
 	padding: .2em 1em .2em .5em;
 	text-align: left;
 	vertical-align: middle;
+}
+
+/*styling for the name input text box*/
+#name{
+	background-color: antiquewhite;
+	font-style: italic;
+}
+
+/*styling for the phone number input text box*/
+#pnumber{
+	background-color: antiquewhite;
+	font-style: italic;
+}
+
+/*styling for the email input text box*/
+#eaddress{
+	background-color: antiquewhite;
+	font-style: italic;
+}
+
+/*styling for the button*/
+#submit{
+	background-color: #072d4d;
+	color: rgb(255, 245, 231);
 }
