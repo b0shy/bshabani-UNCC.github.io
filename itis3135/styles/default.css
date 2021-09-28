@@ -2,6 +2,15 @@ body {
 	font-size: 16px;
 	background-color: #fa80728c;
 	color: #295f8b;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+/*styling for header and footer*/
+header, footer{
+	text-align: center;
+	color: #d090e9 ;
+	font-weight: bold;
 }
 
 /*styling for the header title*/
@@ -12,8 +21,8 @@ h1 {
 	background-color: #295f8b;
 	color: #f59b91;
 }
-
-h3{
+/*styling for h1,h2,h3*/
+h1, h2, h3{
 	text-align: center;
 }
 
@@ -26,6 +35,7 @@ h2 {
 	font-size: 28px;
 	text-align: center;
 }
+
 
 /*styling for the bottom copyright information*/
 
@@ -44,4 +54,30 @@ tr:nth-child(odd){
 /*styling for the tables*/
 tr:nth-child(even){
 	background-color: #f1a2976e;
+}
+
+/*styling for the figure*/
+figure
+{
+	text-align: center;
+}
+
+/*styling for the figure caption*/
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
+
+/*styling for the tables borders*/
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
 }
