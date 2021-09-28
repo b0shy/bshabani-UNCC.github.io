@@ -13,6 +13,10 @@ h1 {
 	color: #f59b91;
 }
 
+h3{
+	text-align: center;
+}
+
 /*styling for hyperlinks*/
 a {
 	color: #97ffdc;
@@ -29,4 +33,15 @@ footer {
 	font-style: italic;
 	font-size: 12px;
 	text-align: center;
+}
+
+/*styling for the tables*/
+tr:nth-child(odd){
+	background-color: #fa80728c;
+	color: #295f8b;
+}
+
+/*styling for the tables*/
+tr:nth-child(even){
+	background-color: #f1a2976e;
 }
