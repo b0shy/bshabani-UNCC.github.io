@@ -7,13 +7,15 @@ body {
 }
 
 /*styling for header and footer*/
-header, footer{
+
+header, footer {
 	text-align: center;
-	color: #d090e9 ;
+	color: #d090e9;
 	font-weight: bold;
 }
 
 /*styling for the header title*/
+
 h1 {
 	font-style: italic;
 	font-size: 28px;
@@ -23,15 +25,17 @@ h1 {
 }
 
 /*styling for hyperlinks*/
+
 a {
 	color: #97ffdc;
 }
+
 /*styling for the page title*/
+
 h2 {
 	font-size: 28px;
 	text-align: center;
 }
-
 
 /*styling for the bottom copyright information*/
 
@@ -42,36 +46,37 @@ footer {
 }
 
 /*styling for the tables*/
-tr:nth-child(odd){
+
+tr:nth-child(odd) {
 	background-color: #fa80728c;
 	color: #295f8b;
 }
 
 /*styling for the tables*/
-tr:nth-child(even){
+
+tr:nth-child(even) {
 	background-color: #f1a2976e;
 }
 
 /*styling for the figure*/
-figure
-{
+
+figure {
 	text-align: center;
 }
 
 /*styling for the figure caption*/
-figcaption
-{
+
+figcaption {
 	font-style: italic;
 }
 
-nav
-{
+nav {
 	text-align: center;
 }
 
 /*styling for the tables borders*/
-th, td
-{
+
+th, td {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
 	text-align: left;
@@ -79,25 +84,59 @@ th, td
 }
 
 /*styling for the name input text box*/
-#name{
+
+#name {
 	background-color: antiquewhite;
 	font-style: italic;
 }
 
 /*styling for the phone number input text box*/
-#pnumber{
+
+#pnumber {
 	background-color: antiquewhite;
 	font-style: italic;
 }
 
 /*styling for the email input text box*/
-#eaddress{
+
+#eaddress {
 	background-color: antiquewhite;
 	font-style: italic;
 }
 
-/*styling for the button*/
-#submit{
+/*styling for the submit button*/
+
+#submit {
 	background-color: #072d4d;
 	color: rgb(255, 245, 231);
+}
+
+/*styling for the calculator buttons*/
+
+button {
+	width: 50px;
+	height: 50px;
+	border-radius: 25%;
+	font-size: 1.5rem;
+	background-color: #295f8b;
+	color: rgb(255, 245, 231);
+	margin: 10px;
+}
+
+/*styling for the calculator display*/
+
+.display {
+	width: 17%;
+	height: 80px;
+	box-sizing: border-box;
+	font-size: 2rem;
+	background-color: #295f8b;
+	color: rgb(255, 245, 231);
+}
+
+/*styling for the calculator operator buttons*/
+
+.operator {
+	background-color: rgb(255, 245, 231);
+	color: #295f8b;
 }
