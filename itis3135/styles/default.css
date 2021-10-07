@@ -114,10 +114,10 @@ th, td {
 /*styling for the calculator buttons*/
 
 button {
-	width: 50px;
-	height: 50px;
+	width: 26%;
+	height: 100px;
 	border-radius: 25%;
-	font-size: 1.5rem;
+	font-size: 20px;
 	background-color: #295f8b;
 	color: rgb(255, 245, 231);
 	margin: 10px;
