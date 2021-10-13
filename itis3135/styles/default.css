@@ -37,6 +37,13 @@ h2 {
 	text-align: center;
 }
 
+/*styling for the h3*/
+
+h3 {
+	font-size: 28px;
+	text-align: center;
+}
+
 /*styling for the bottom copyright information*/
 
 footer {
