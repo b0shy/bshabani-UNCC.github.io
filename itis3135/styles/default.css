@@ -147,3 +147,60 @@ button {
 	background-color: rgb(255, 245, 231);
 	color: #295f8b;
 }
+
+/*styling for the container*/
+
+.container{
+	width: 540px;
+	margin: 40px auto;
+	overflow: auto;
+}
+
+/*styling for the slideshow*/
+
+.slideshow{
+	width: 500px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+
+}
+
+/*styling for the slideshow images*/
+
+.slideshow img{
+	display: none;
+	width: 500px;
+	height: 400px;
+}
+
+/*styling for the first slideshow image*/
+
+.slideshow img.first{
+	display: inline-block;
+}
+
+/*styling for the back and forward arrows*/
+
+.back, .forward{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+/*styling for the back arrow*/
+
+.back{
+	position: relative;
+	margin-right: -50px;
+	z-index: 100;
+}
+
+/*styling for the forward arrow*/
+
+.forward{
+	position: relative;
+	margin-left: -50px;
+	z-index: 100;
+}
