@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weekly Calorie Calculator</title>
+    <link rel="stylesheet" href="Midterm.css">
+    <script src="Midterm.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Weekly Calorie Calculator</h1>
+        <!--add the form-->
+        <form id="your_details" name="your_details" action="#">
+
+            <h2>Enter your details</h2>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <input type="button" class="pageButtons" name="submit" id="submit" value="Submit">
+        </form>
+
+        <!--add the radio buttons-->
+
+        <div>
+            <input type="radio" id="monday" name="days" value="Monday">
+            <label for="Monday">Monday</label>
+        </div>
+
+        <div>
+            <input type="radio" id="tuesday" name="days" value="Tuesday">
+            <label for="Tuesday">Tuesday</label>
+        </div>
+
+        <div>
+            <input type="radio" id="wednesday" name="days" value="Wednesday">
+            <label for="Wednesday">Wednesday</label>
+        </div>
+
+        <div>
+            <input type="radio" id="thursday" name="days" value="Thursday">
+            <label for="Thursday">Thursday</label>
+        </div>
+
+        <div>
+            <input type="radio" id="friday" name="days" value="Friday">
+            <label for="Friday">Friday</label>
+        </div>
+
+        <div>
+            <input type="radio" id="saturday" name="days" value="Saturday">
+            <label for="Saturday">Saturday</label>
+        </div>
+
+        <div>
+            <input type="radio" id="sunday" name="days" value="Sunday">
+            <label for="Sunday">Sunday</label><br>
+            <br>
+        </div>
+
+
+        <!--input for calorie-->
+
+        <br>
+        <label for="calorie">Enter the Calorie:</label>
+        <input type="number" id="calorie" name="calorie">
+
+        <!--button for updating calorie-->
+
+        <input type="button" class="pageButtons" name="update" id="update" value="Update">
+
+        <!--button for add calorie-->
+
+        <input type="button" class="pageButtons" name="averageCalorie" id="averageCalorie" value="Average Calorie">
+
+        <!--text box for showing Average calorie-->
+
+        <label for="average">Average Calorie Consumed is:</label>
+        <input type="text" id="averageInput" name="averageInput">
+
+        <!--header for showing maximum calorie amount and cheat day-->
+        <strong id="show_max">Show Maximum Calorie and Cheat Day:</strong>
+        <!--div for showing maximum calorie amount and cheat day-->
+        <div id="showMax"></div>
+
+    </main>
+    <footer>
+        <br />
+        <a href="https://validator.w3.org/">Validate HTML</a>
+        <br />
+        <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+    </footer>
+</body>
+
+</html>
