@@ -45,12 +45,46 @@ h2 {
     font-size: 30px;
 }
 
-img {
+.container {
+    width: 540px;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+.slideshow {
     width: 500px;
-    height: 500px;
-    display: grid, 3;
-    margin-left: auto;
-    margin-right: auto;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.slideshow img {
+    display: none;
+    width: 500px;
+    height: 400px;
+}
+
+.slideshow img.first {
+    display: inline-block;
+}
+
+.back, .forward {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.back {
+    position: relative;
+    margin-right: -50px;
+    z-index: 100;
+}
+
+.forward {
+    position: relative;
+    margin-left: -50px;
+    z-index: 100;
 }
 
 #cssValid, #htmlValid {

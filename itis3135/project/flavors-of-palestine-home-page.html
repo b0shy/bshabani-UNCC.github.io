@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/flavors-of-palestine-styling.css" type="text/css">
+    <link rel="stylesheet" href="styles/flavors-of-palestine-home-page-styling.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script type=text/javascript src="scripts/flavors-of-palestine-script.js"></script>
-    <title>Bashar Shabani, ITIS3135, Flavors of Palestine</title>
+    <script type=text/javascript src="scripts/flavors-of-palestine-image-slideshow-script.js"></script>
+    <title>Flavors of Palestine - Home</title>
 </head>
 
 <body>
@@ -15,10 +18,11 @@
     </header>
 
     <nav>
-        <a href="#">Breakfast Recipes</a>
-        <a href="#">Appetizer & Salad Recipes</a>
-        <a href="#">Dinner Recipes</a>
-        <a href="#">Dessert Recipes</a>
+        <a href="flavors-of-palestine-home-page.html">Home</a>
+        <a href="flavors-of-palestine-breakfast-page.html">Breakfast Recipes</a>
+        <a href="flavors-of-palestine-Appetizer-and-salad-page.html">Appetizer & Salad Recipes</a>
+        <a href="flavors-of-palestine-dinner-page.html">Dinner Recipes</a>
+        <a href="flavors-of-palestine-dessert-page.html">Dessert Recipes</a>
     </nav>
 
     <main>
@@ -32,22 +36,41 @@
         </h3>
 
         <h2>Photo Gallery:</h2>
-        <div id="photoGallery">
-            <img src="" alt="Shakshuka">
-            <img src="" alt="Zaatar Manakeesh">
-            <img src="" alt="Mfarakeh">
-            <img src="" alt="Mansaf">
-            <img src="" alt="Maqluba">
-            <img src="" alt="Msakhan">
-            <img src="" alt="Hummas">
-            <img src="" alt="Baba Ghanoush">
-            <img src="" alt="Tabouleh">
-            <img src="" alt="Fattoush">
-            <img src="" alt="Knafeh">
-            <img src="" alt="Hareesah">
+
+        <div class="container">
+            <div class="arrows">
+                <img src="images/left-arrow.png" class="back" alt="Back">
+                <div class="slideshow">
+                    <img src="images/shakshoukah.jpg" class="first" alt="Shakshuka">
+                    <img src="images/manakeesh.jpg" alt="Zaatar Manakeesh">
+                    <img src="images/mfarakeh.jpg" alt="Mfarakeh">
+                    <img src="images/mansaf.jpg" alt="Mansaf">
+                    <img src="images/maqlubah.jpg" alt="Maqluba">
+                    <img src="images/msakhaan.jpg" alt="Msakhan">
+                    <img src="images/hummus.jpg" alt="Hummas">
+                    <img src="images/babaghanoush.jpg" alt="Baba Ghanoush">
+                    <img src="images/tabouleh.jpg" alt="Tabouleh">
+                    <img src="images/fattoush.jpg" alt="Fattoush">
+                    <img src="images/knafeh.jpg" alt="Knafeh">
+                    <img src="images/hareesah.jpg" alt="Hareesah">
+                </div>
+                <img src="images/right-arrow.png" class="forward" alt="Forward">
+            </div>
         </div>
 
     </main>
+
+    <footer>
+        <p>Page built by Bashar Shabani</p>
+
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="images/button-valid-html5.gif" id="cssValid" width="88" height="31"
+                alt="Link to HTML validator"></a>
+
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="images/button-valid-css.gif" id="htmlValid" width="88" height="31"
+                alt="Link to CSS validator"></a>
+    </footer>
 
 </body>
 
