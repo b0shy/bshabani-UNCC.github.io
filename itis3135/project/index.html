@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/flavors-of-palestine-home-page-styling.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type=text/javascript src="scripts/flavors-of-palestine-script.js"></script>
+    <!--BXSlider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--BXSlider-->
     <script type=text/javascript src="scripts/flavors-of-palestine-image-slideshow-script.js"></script>
     <title>Flavors of Palestine - Home</title>
 </head>
@@ -35,26 +37,20 @@
 
         <h2>Photo Gallery:</h2>
 
-        <div class="container">
-            <div class="arrows">
-                <img src="images/left-arrow.png" class="back" alt="Back">
-                <div class="slideshow">
-                    <img src="images/shakshoukah.jpg" class="first" alt="Shakshuka">
-                    <img src="images/manakeesh.jpg" alt="Zaatar Manakeesh">
-                    <img src="images/mfarakeh.jpg" alt="Mfarakeh">
-                    <img src="images/mansaf.jpg" alt="Mansaf">
-                    <img src="images/maqlubah.jpg" alt="Maqluba">
-                    <img src="images/msakhaan.jpg" alt="Msakhan">
-                    <img src="images/hummus.jpg" alt="Hummas">
-                    <img src="images/babaghanoush.jpg" alt="Baba Ghanoush">
-                    <img src="images/tabouleh.jpg" alt="Tabouleh">
-                    <img src="images/fattoush.jpg" alt="Fattoush">
-                    <img src="images/knafeh.jpg" alt="Knafeh">
-                    <img src="images/hareesah.jpg" alt="Hareesah">
-                </div>
-                <img src="images/right-arrow.png" class="forward" alt="Forward">
-            </div>
-        </div>
+        <ul id="slideshow">
+            <li><img src="images/shakshoukah.jpg" class="first" alt="Shakshuka"></li>
+            <li><img src="images/manakeesh.jpg" alt="Zaatar Manakeesh"></li>
+            <li><img src="images/mfarakeh.jpg" alt="Mfarakeh"></li>
+            <li><img src="images/mansaf.jpg" alt="Mansaf"></li>
+            <li><img src="images/maqlubah.jpg" alt="Maqluba"></li>
+            <li><img src="images/msakhaan.jpg" alt="Msakhan"></li>
+            <li><img src="images/hummus.jpg" alt="Hummas"></li>
+            <li><img src="images/babaghanoush.jpg" alt="Baba Ghanoush"></li>
+            <li><img src="images/tabouleh.jpg" alt="Tabouleh"></li>
+            <li><img src="images/fattoush.jpg" alt="Fattoush"></li>
+            <li><img src="images/knafeh.jpg" alt="Knafeh"></li>
+            <li><img src="images/hareesah.jpg" alt="Hareesah"></li>
+        </ul>
 
     </main>
 

@@ -51,22 +51,9 @@ h2 {
     overflow: auto;
 }
 
-.slideshow {
+#slideshow img {
     width: 500px;
     height: 400px;
-    position: relative;
-    overflow: hidden;
-    float: left;
-}
-
-.slideshow img {
-    display: none;
-    width: 500px;
-    height: 400px;
-}
-
-.slideshow img.first {
-    display: inline-block;
 }
 
 .back, .forward {
